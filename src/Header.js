@@ -1,9 +1,11 @@
 import logo from "./img/Asset 16@4x.png";
-
+import "./Header.css";
+import Nav from "./Nav";
 function Header() {
   return (
-    <header>
-      <img src={logo} width={100} height={30} alt="Logo" />
+    <header className="branding">
+      <img src={logo} width={150} height={50} alt="Logo" />
+      <Nav />
     </header>
   );
 }

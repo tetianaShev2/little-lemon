@@ -1,0 +1,26 @@
+.Navmenu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: 2vw;
+  margin-top: 12px;
+}
+.Navmenu li {
+  list-style-type: none;
+}
+.Navmenu a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 17pt;
+}
+.Navmenu a:hover {
+  color: #495e57;
+}
+@media (max-width: 600px) {
+  .Navmenu ul {
+    display: none;
+  }
+}

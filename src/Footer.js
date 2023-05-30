@@ -1,10 +1,12 @@
 import logo from "./img/Asset 20@4x.png";
+import "./Footer.css";
 function Footer() {
   return (
-    <footer>
-      <img src={logo} width={50} length={50} alt="Logo" />
-      <h4>Doormat navigation</h4>
+    <footer class="container">
+      <img src={logo} alt="Logo" width={100} length={30} />
+
       <ul>
+        <h4>Doormat navigation</h4>
         <li>
           <a href="/">Home</a>
         </li>
@@ -24,8 +26,9 @@ function Footer() {
           <a href="">Login</a>
         </li>
       </ul>
-      <h4>Contact</h4>
+
       <ul>
+        <h4>Contact</h4>
         <li>
           <a href="/">Address</a>
         </li>
