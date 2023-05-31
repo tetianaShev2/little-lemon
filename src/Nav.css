@@ -13,7 +13,7 @@
   text-decoration: none;
   color: black;
   font-family: var(--primary-font-family);
-  font-weight: 500;
+  font-weight: medium;
   font-size: 17pt;
 }
 .Navmenu a:hover {

@@ -1,0 +1,39 @@
+h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 64pt;
+  color: var(--secondary-color);
+}
+h3 {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 40pt;
+  color: #edefee;
+}
+p {
+  font-family: var(--secondary-font-family);
+  font-weight: medium;
+  font-size: 18pt;
+  color: #ffffff;
+}
+.aboutUs {
+  background-color: var(--primary-color);
+  padding: 5vh 5vw;
+}
+.restaurantFood {
+  border-radius: 16px;
+}
+.description {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutUs button {
+  background-color: var(--secondary-color);
+  color: black;
+  font-family: var(--secondary-font-family);
+  font-size: 16pt;
+  font-weight: bold;
+  border-radius: 16px;
+  width: 148pt;
+  height: 35pt;
+}
