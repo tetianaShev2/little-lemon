@@ -2,7 +2,7 @@
   display: flex;
   justify-content: stretch;
   gap: 5vw;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 .container li {
   list-style-type: none;
@@ -16,4 +16,12 @@
 }
 .container a:hover {
   color: #495e57;
+}
+.container h4 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container img {
+  margin: 1vw;
 }

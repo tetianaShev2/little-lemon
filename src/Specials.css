@@ -1,27 +1,42 @@
-.specials {
-  display: grid;
-  grid-template-areas:
-    "header header button"
-    " article article article ";
-  grid-template-rows: 50px 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2vw;
-  padding: 5vw;
-  justify-items: stretch;
+.row {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  flex: 1;
+}
+img {
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+
 h2 {
-  grid-area: header;
   color: var(--primary-color);
+  margin: 2vw;
+}
+.specials p {
+  font-family: var(--secondary-font-family);
+  font-size: 11px;
+  color: black;
 }
 .specials h3 {
   color: var(--primary-color);
 }
-article {
+
+.article {
   background-color: #edefee;
 }
 
 button {
-  grid-area: button;
   background-color: var(--primary-color);
   color: #edefee;
   font-family: var(--secondary-font-family);
@@ -30,5 +45,8 @@ button {
   border-radius: 16px;
   width: 148pt;
   height: 35pt;
-  margin: 5px;
+  margin: 2vw;
+}
+h3 .price {
+  color: var(--secondary-color);
 }
