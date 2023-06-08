@@ -1,7 +1,7 @@
 import "./Specials.css";
 import Salad from "./img/greek salad.jpg";
 import Bruschetta from "./img/bruschetta.jpg";
-import Dessert from "./img/lemon dessert.jpg";
+import Dessert from "./img/lemon cake.jpg";
 
 function Specials() {
   return (

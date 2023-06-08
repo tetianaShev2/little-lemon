@@ -13,6 +13,12 @@
   flex-wrap: wrap;
   flex: 1;
 }
+@media (min-width: 800px) {
+  .column {
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+  }
+}
 img {
   display: block;
   margin: auto;
