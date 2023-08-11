@@ -1,4 +1,4 @@
-.Navmenu ul {
+.Navmenu {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
@@ -20,7 +20,7 @@
   color: #495e57;
 }
 @media (max-width: 600px) {
-  .Navmenu ul {
+  .Navmenu {
     display: none;
   }
 }

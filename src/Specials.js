@@ -54,9 +54,7 @@ function Specials() {
             <p>
               Our Bruschetta is made from grilled bread that has been smeared
               with garlic and seasoned with salt and olive oil. Toppings of
-              tomato, veggies, beans, cured pork, or cheese are examples of
-              variations. In Italy, a brustolina grill is frequently used to
-              create bruschetta.
+              tomato, veggies, beans, cured pork, or cheese.
             </p>
             <strong>Order a delivery</strong>
           </div>
@@ -74,11 +72,9 @@ function Specials() {
               Lemon dessert <span className="price">$5.99</span>
             </h3>
             <p>
-              Light, fluffy, and deliciously tangy, this Lemon Cake is the
-              perfect dessert for any occasion. With two layers of moist
+              Light, fluffy, and deliciously tangy, with two layers of moist
               lemon-flavored cake coated in a rich lemon-flavored cream cheese
-              frosting, there's no shortage of bright lemon flavor in this
-              dessert.
+              frosting.
             </p>
             <strong>Order a delivery</strong>
           </div>
