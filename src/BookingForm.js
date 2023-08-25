@@ -22,6 +22,7 @@ function BookingForm() {
         <input
           type="date"
           id="res-date"
+          required
           value={form.date}
           onChange={(e) => {
             setForm({
@@ -32,7 +33,7 @@ function BookingForm() {
         />
         <label htmlFor="res-time">Choose time</label>
         <select id="res-time ">
-          value={form.time}
+          required value={form.time}
           onChange={" "}
           {(e) => {
             setForm({
@@ -54,6 +55,7 @@ function BookingForm() {
           min={1}
           max={10}
           id="guests"
+          required
           value={form.numberOfGuests}
           onChange={(e) => {
             setForm({
@@ -76,7 +78,7 @@ function BookingForm() {
           <option>Birthday</option>
           <option>Anniversary</option>
         </select>
-        <input type="submit" value="Make Your reservation" />
+        <input type="submit" disabled={!form} value="Make Your reservation" />
       </form>
     </div>
   );
